@@ -1,0 +1,2 @@
+# Password Penetration with Bruteforce
+**WARNING** - This program is built for educational purposes to understanding the password cracking method using Bruteforce algorithm. I won't take any responsibility for wrong use of this program.
