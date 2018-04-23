@@ -6,7 +6,13 @@ import sys
 
 def matched(a, b):
     if a == b:
-        print('String matched! Password is : {}'.format(list(a)))
+        print('========================================================')
+        print('=================== String matched! ====================')
+        print('========================================================')
+        print('Password is : {}'.format(a))
+        print('Done in : {} seconds'.format(time.perf_counter() - start))
+        print('========================================================')
+        input('Press enter to terminate program...')
         sys.exit()
 
 
@@ -18,7 +24,7 @@ def penetrate(real):
             a = temporary
             b = real
             matched(a, b)
-            print('Testing : {} || {}'.format(list(temporary), time.perf_counter() - start))
+            print('{}'.format(list(temporary)))
 
 
 def main():
